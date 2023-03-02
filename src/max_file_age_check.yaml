@@ -1,0 +1,6 @@
+init_config:
+
+instances:
+  - path: "C:\\PathToMyFolder\\"
+    max_age: 2 # Max age in minutes
+    metric_name: custom.image_folder_expired_files # Name of metric in datadog
